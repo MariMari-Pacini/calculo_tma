@@ -27,21 +27,19 @@ pip install pandas
 Executando o script
 Clone este repositório ou baixe o arquivo .py.
 
-Execute o script:
+Execute o script com:
 
 bash
-Copy
+Copiar
+Editar
 python calcular_tma.py
 Selecione um arquivo Excel ou CSV contendo os tempos de atendimento (um tempo por linha, no formato HH:MM:SS).
 
 O script exibirá:
 
 O TMA atual.
-
 Quantos atendimentos estão abaixo da meta.
-
 Quantos atendimentos rápidos são necessários para atingir a meta (se aplicável).
-
 Exemplo de arquivo de entrada
 Um arquivo Excel ou CSV deve conter uma coluna, sem cabeçalho, com os tempos de atendimento no formato HH:MM:SS. Exemplo:
 
@@ -50,25 +48,21 @@ Tempo
 00:19:10
 00:17:45
 00:20:00
-
-
-### Resultados esperados
+Resultados esperados
 Ao executar o script com o arquivo acima, você verá algo como:
 
 Média TMA atual: 18m11s
 Atendimentos abaixo do TMA desejado (18min50seg): 3
 Você precisa de 2 atendimentos abaixo de 17m para atingir a média desejada de 18m50s. (Esse cálculo pode conter erros)
-
-
-### Licença
+Licença
 Este projeto é pessoal e não está associado à empresa onde trabalho. Sinta-se à vontade para usar, modificar e distribuir conforme a licença MIT.
 
-MIT License
 
-### Contribuições
+MIT License
+Contribuições
 Este projeto foi criado para fins pessoais, mas se você tiver sugestões ou melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
-### Contato
+Contato
 Se tiver dúvidas ou quiser entrar em contato, você pode me encontrar no [LinkedIn](https://www.linkedin.com/in/marianapacini-dataengineer/).
 
 Nota: Este script foi desenvolvido para uso pessoal e pode conter erros ou limitações, pois ainda se encontra em desenvolvimento. Use por sua própria conta e risco.
