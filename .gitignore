@@ -1,0 +1,12 @@
+# Ocultar o ambiente virtual
+venv/
+
+# Ocultar pastas criadas pelo PyInstaller
+build/
+dist/
+
+# Ocultar arquivos gerados pelo PyInstaller
+*.spec
+
+# Ocultar arquivos de dados para testes
+testes/
