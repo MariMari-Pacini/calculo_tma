@@ -29,9 +29,6 @@ Clone este repositório ou baixe o arquivo .py.
 
 Execute o script com:
 
-bash
-Copiar
-Editar
 python calcular_tma.py
 Selecione um arquivo Excel ou CSV contendo os tempos de atendimento (um tempo por linha, no formato HH:MM:SS).
 
