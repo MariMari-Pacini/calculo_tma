@@ -38,9 +38,9 @@ Selecione um arquivo Excel ou CSV contendo os tempos de atendimento (um tempo po
 
 
 **O script exibirá:**
-O TMA atual.
-Quantos atendimentos estão abaixo da meta.
-Quantos atendimentos rápidos são necessários para atingir a meta (se aplicável).
+- O TMA atual.
+- Quantos atendimentos estão abaixo da meta.
+- Quantos atendimentos rápidos são necessários para atingir a meta (se aplicável).
 
 **Exemplo de arquivo de entrada:**
 Um arquivo Excel ou CSV deve conter uma coluna, sem cabeçalho, com os tempos de atendimento no formato HH:MM:SS. Exemplo:
