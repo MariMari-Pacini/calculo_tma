@@ -44,12 +44,13 @@ Quantos atendimentos rápidos são necessários para atingir a meta (se aplicáv
 
 **Exemplo de arquivo de entrada:**
 Um arquivo Excel ou CSV deve conter uma coluna, sem cabeçalho, com os tempos de atendimento no formato HH:MM:SS. Exemplo:
-
+```bash
 Tempo
 00:15:30
 00:19:10
 00:17:45
 00:20:00
+```
 
 ---
 
